@@ -8,6 +8,8 @@ Master/Slave Postgres Replication in 30 seconds.
   * To demonstrate multiple slaves:
     * `docker-compose up`
     * `docker-compose scale pg-slave=3`
+  * To access master use port 5433
+  * To access replica use port 5434
 
 ## Notes
 
